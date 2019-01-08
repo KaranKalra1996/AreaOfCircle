@@ -1,5 +1,8 @@
 number = int(input("Give number : "))
-if number % 2 == 0 :
-	print(str(number)+" is even.")
-else :
-	print(str(number)+" is odd.")
+def odd_even(num):
+	if num%2 == 1 : 
+		print("Number is odd.")
+	else : 
+		print("Number is even.")
+odd_even(number)
+
